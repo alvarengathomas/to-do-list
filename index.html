@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>Quero Bolsa Task Manager</title>
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/main.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="burger-menu">
+          <img src="assets/icons/menu.svg">
+        </a>
+        <a href="#" class="menu">My Tasks</a>
+        <a href="#" class="menu">Inbox</a>
+        <a href="#" class="plus-button">
+          <img src="assets/icons/plus.svg">
+        </a>
+        <div class="search">
+          <img src="assets/icons/search.svg">
+          <input type="text" placeholder="Search">
+        </div>
+        <a href="#" class="menu">
+          Help
+          <img src="assets/icons/chevron-down.svg">
+        </a>
+        <a href="#" class="account">
+          Personal Projects
+          <img class="avatar" src="assets/images/profile.jpg" />
+        </a>
+      </nav>
+      <section>
+        <img class="avatar" src="assets/images/profile.jpg" />
+        <span>My Personal Tasks</span>
+        <img src="assets/icons/chevron-down.svg">
+      </section>
+    </header>
+    <content>
+      <list>
+        <header>
+          <a id="btn-add-task">Add Task</a>
+          <img src="assets/icons/gear.svg">
+        </header>
+        <items>
+        </items>
+      </list>
+      <detail>
+        <header>
+          <div>
+            <img class="avatar" src="assets/images/profile.jpg" />
+            <span>Thomas Alvarenga</span>
+            <img class="circle-icon" src="assets/icons/circle.svg">
+          </div>
+          <a href="#">
+            <img class="btn border-dashed" src="assets/icons/calendar.svg">
+            <span class="aside_header_text">Due Date</span>
+          </a>
+          <a href="#">
+            <img class="btn border-solid" src="assets/icons/heart.svg">
+          </a>
+          <a href="#">
+            <img class="btn border-solid" src="assets/icons/list.svg">
+          </a>
+          <a href="#">
+            <img class="btn border-solid" src="assets/icons/paperclip.svg">
+          </a>
+          <a href="#">
+            <img class="btn border-solid" src="assets/icons/dots.svg">
+          </a>
+          <a href="#" id="btn-close-detail" class="close">
+            <img src="assets/icons/times.svg">
+          </a>
+        </header>
+        <task>
+          <name>
+            <img src="assets/icons/check.svg">
+            <input type="text" placeholder="New task" value=""/>
+          </name>
+          <textarea placeholder="Description"></textarea>
+          <comment>
+            <avatar>
+              <img class="avatar" src="assets/images/profile.jpg" />
+            </avatar>
+            <textarea type="text" placeholder="Write a comment..."></textarea>
+          </comment>
+        </task>
+      </detail>
+    </content>
+    <script type="text/javascript" src="assets/javascripts/index.js"></script>
+  </body>
+</html>

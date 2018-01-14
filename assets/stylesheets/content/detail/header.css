@@ -1,0 +1,42 @@
+content detail header {
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+  z-index: 100;
+  display: grid;
+  grid-template-columns: 2fr 1fr repeat(4, 0.3fr) 1fr 0.5fr;
+  grid-template-rows: 50px;
+}
+
+content detail header div span{
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+content detail header a {
+  margin: auto;
+}
+
+content detail header a .btn {
+  border-width: 1px;
+  border-radius: 50%;
+  border-color: #b7bfc6;
+  width: 20px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+content detail header a span {
+  vertical-align: middle;
+  color: #848f99;
+}
+
+content detail header .close {
+  grid-area: 1/8/2/9;
+  text-align: right;
+}
+content detail header .close img {
+  width: 20px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}

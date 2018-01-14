@@ -1,0 +1,13 @@
+@import 'header.css';
+@import 'items.css';
+
+content list {
+  grid-area: 1/2/2/4;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+  background-color: #fff;
+  margin: 20px 10px 0 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px;
+}

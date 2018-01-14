@@ -1,0 +1,12 @@
+@import 'nav.css';
+@import 'section.css';
+
+header {
+  grid-area: 1/1/2/2;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 65px;
+}
