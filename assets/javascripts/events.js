@@ -34,6 +34,7 @@ events.setup = () => {
     }
   });
 
+  elements.inputs.description.addEventListener('blur', save);
   elements.inputs.description.addEventListener('keypress', (e) => {
     if (e.keyCode === 13) {
       save();
