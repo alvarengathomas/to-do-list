@@ -30,6 +30,10 @@ content detail task name input {
   padding-left: 60px;
 }
 
+content detail task name input:focus {
+  border-width: 1px;
+}
+
 content detail task textarea {
   grid-area: 3/2/4/3;
   border: 1px solid #b7bfc6;
@@ -39,6 +43,10 @@ content detail task textarea {
   padding: 10px;
   color: #151b26;
   resize: none;
+}
+
+content detail task textarea:focus {
+  border-width: 1px;
 }
 
 content detail task comment {
